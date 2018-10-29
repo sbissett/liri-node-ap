@@ -153,3 +153,12 @@ function getRandom(){
     });
 };
 
+//Function to log results from the other functions
+function logResults(data){
+    fs.appendFile("log.txt", data, function(err) {
+      if (err)
+          throw err;
+    });
+  };
+
+  commands(liriCommand,input);
