@@ -24,7 +24,7 @@ function commands (liriCommand, input){
     switch (liriCommand) {
 
         case "concert-this":
-        getTweets(input);
+        getConcert(input);
         break; 
         
         case "spotify-this-song":
@@ -133,3 +133,23 @@ function getMovie(movieName) {
 		}
     });
 };
+
+//Function for Random
+function getRandom(){
+    //Reads text in random.txt file
+    fs.readFile("random.txt", "utf8", function(error, data) {
+        if (error) {
+            return console.log(error);
+        }
+        else {
+        console.log(data);
+
+        //creates a variable for data in random.txt
+        var randomData = data.split(",");
+        //passes data into getSong function
+        commands(randomData[0], randomData[1]);
+        }
+        console.log("test" + randomData[0] + randomData[1]);
+    });
+};
+
