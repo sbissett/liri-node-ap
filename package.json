@@ -1,0 +1,17 @@
+{
+  "name": "liri-node-ap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "node-spotify-api": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
