@@ -5,7 +5,7 @@ require("dotenv").config();
 var fs = require("fs");
 var keys = require('./keys.js');
 var request = require('request');
-var twitter = require('node-concert-api');
+var concert = require('node-bandsintown-api');
 var Spotify = require('node-spotify-api');
 
 //Variables to target specific APIs in the keys.js file
@@ -47,7 +47,9 @@ function commands (liriCommand, input){
 
 //function for each liri command
 
-// Function for spotify
+// Function for bands
+
+
 
 
 //Function for Spotify
@@ -128,11 +130,50 @@ function getMovie(movieName) {
               logResults(response);
         } 
         else {
-			console.log("Error :"+ error);
+			console.log("it's on netflicks :"+ "http://www.imdb.com/title/tt0485947/");
 			return;
 		}
     });
 };
+
+//Function for concerts
+
+function getConcert(concertName) {
+    //If no concert is provided, use try another band as default
+        if (!concertName) {
+            concertName = "Try another band";
+        }
+            
+    // Runs a request to the OMDB API with the movie specified
+    var queryUrl = "https://rest.bandsintown.com/artists" + artist + "/events?app id=codeingbootcamp";
+
+    // Helps debugging
+    console.log(queryUrl);
+
+    //Callback to bands in town API to get movie info
+    request(queryUrl, function(error, response, body) {
+
+        // If the request is successful
+        if (!error && response.statusCode === 100) {
+            var concertObject = JSON.parse(body);
+
+            //console.log(concertObject); // Show the text in the terminal
+            var concertResults = 
+            "------------------------------ begin ------------------------------" + "\r\n" +
+            "Name of the venue: " + concertObject.Name+"\r\n"+
+            "Location: " + concertObject.Location+"\r\n"+
+            "Date of event: " + concertObject.Date+"\r\n"+
+            "------------------------------ end ------------------------------" + "\r\n";
+            console.log(concertResults);
+
+            //Appends movie results to log.txt file
+            fs.appendFile('log.txt', concertResults, function (err) {
+                if (err) throw err;
+              });
+              console.log("Saved!");
+              logResults(response);
+        } 
+
 
 //Function for Random
 function getRandom(){
