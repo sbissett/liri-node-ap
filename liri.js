@@ -14,7 +14,7 @@ var liricommand = process.argv[2];
 var input = process.argv[3];
 
 // Available commands for liri
-//my tweets, spotify-this-song, do-what-it-says
+//concert-this, spotify-this-song, do-what-it-says
 
 // Available commands for liri 
 //concert-this, spotify-this-song, movie-this, do-what-it-says
@@ -22,10 +22,6 @@ var input = process.argv[3];
 function commands (liriCommand, input){
 
     switch (liriCommand) {
-
-        case "concert-this":
-        getConcert(input);
-        break; 
         
         case "spotify-this-song":
         getSong(input);
@@ -34,6 +30,10 @@ function commands (liriCommand, input){
         case "movie-this":
         getMovie(input);
         break;
+
+        case "concert-this":
+        getConcert(input);
+        break; 
 
         case "do-what-it-says":
         getRandom();
@@ -46,9 +46,6 @@ function commands (liriCommand, input){
 }
 
 //function for each liri command
-
-// Function for bands
-
 
 
 
@@ -172,7 +169,13 @@ function getConcert(concertName) {
               });
               console.log("Saved!");
               logResults(response);
-        } 
+        };
+
+    });  
+    
+};
+
+
 
 
 //Function for Random
