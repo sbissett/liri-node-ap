@@ -3,7 +3,7 @@ require("dotenv").config();
 
 // Importing files needed to run the funtions
 var fs = require("fs");
-var keys = require('./keys.js');
+var keys = require('./key.js');
 var request = require('request');
 var concert = require('node-bandsintown-api');
 var Spotify = require('node-spotify-api');np
@@ -13,7 +13,7 @@ var Spotify = require('node-spotify-api');np
 var liricommand = process.argv[2];
 var input = process.argv[3];
 
-// Available commands for liri
+// Available commands for lirigit a
 //concert-this, spotify-this-song, do-what-it-says
 
 // Available commands for liri 
