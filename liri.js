@@ -5,12 +5,12 @@ require("dotenv").config();
 var fs = require("fs");
 var keys = require('./key.js');
 var request = require('request');
-var concert = require('node-bandsintown-api');
-var Spotify = require('node-spotify-api');np
+/// var concert = require('node-bandsintown-api');
+var Spotify = require('node-spotify-api');
 
 //Variables to target specific APIs in the keys.js file
 
-var liricommand = process.argv[2];
+var liriCommand = process.argv[2];
 var input = process.argv[3];
 
 // Available commands for lirigit a
@@ -134,47 +134,45 @@ function getMovie(movieName) {
 
 //Function for concerts
 
-function getConcert(concertName) {
+///function getConcert(concertName) {
     //If no concert is provided, use try another band as default
-        if (!concertName) {
-            concertName = "Try another band";
-        }
+        ///if (!concertName) {
+            ///concertName = "Try another band";
+        ///}
             
     // Runs a request to the OMDB API with the movie specified
-    var queryUrl = "https://rest.bandsintown.com/artists" + artist + "/events?app id=codeingbootcamp";
+    ///var queryUrl = "https://rest.bandsintown.com/artists" + artist + "/events?app id=codeingbootcamp";
 
     // Helps debugging
-    console.log(queryUrl);
+    ///console.log(queryUrl);
 
     //Callback to bands in town API to get movie info
-    request(queryUrl, function(error, response, body) {
+    ///request(queryUrl, function(error, response, body) {
 
         // If the request is successful
-        if (!error && response.statusCode === 100) {
-            var concertObject = JSON.parse(body);
+        ///if (!error && response.statusCode === 100) {
+           /// var concertObject = JSON.parse(body);
 
             //console.log(concertObject); // Show the text in the terminal
-            var concertResults = 
-            "------------------------------ begin ------------------------------" + "\r\n" +
-            "Name of the venue: " + concertObject.Name+"\r\n"+
-            "Location: " + concertObject.Location+"\r\n"+
-            "Date of event: " + concertObject.Date+"\r\n"+
-            "------------------------------ end ------------------------------" + "\r\n";
-            console.log(concertResults);
+            ///var concertResults = 
+            ///"------------------------------ begin ------------------------------" + "\r\n" +
+            ///"Name of the venue: " + concertObject.Name+"\r\n"+
+            ///"Location: " + concertObject.Location+"\r\n"+
+            ///"Date of event: " + concertObject.Date+"\r\n"+
+            ///"------------------------------ end ------------------------------" + "\r\n";
+            ///console.log(concertResults);
 
             //Appends movie results to log.txt file
-            fs.appendFile('log.txt', concertResults, function (err) {
-                if (err) throw err;
-              });
-              console.log("Saved!");
-              logResults(response);
-        };
+            ///fs.appendFile('log.txt', concertResults, function (err) {
+                //if (err) throw err;
+              ///});
+              ///console.log("Saved!");
+              ///logResults(response);
+        ///};
 
-    });  
+    ///});  
     
-};
-
-
+///};
 
 
 //Function for Random
