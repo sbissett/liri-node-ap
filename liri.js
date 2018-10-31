@@ -6,7 +6,7 @@ var fs = require("fs");
 var keys = require('./keys.js');
 var request = require('request');
 var concert = require('node-bandsintown-api');
-var Spotify = require('node-spotify-api');
+var Spotify = require('node-spotify-api');np
 
 //Variables to target specific APIs in the keys.js file
 
@@ -48,7 +48,6 @@ function commands (liriCommand, input){
 //function for each liri command
 
 
-
 //Function for Spotify
 function getSong(songName) {
     var spotify = new Spotify(keys.spotify);
@@ -73,7 +72,7 @@ function getSong(songName) {
             "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview Link: " + data.tracks.items[0].preview_url + "\n";
             
             //Appends text to log.txt file
-            fs.appendFile('log.txt', logSong, function (err) {
+            fs.appendFile('random.txt', logSong, function (err) {
                 if (err) throw err;
               });
             
@@ -93,11 +92,11 @@ function getMovie(movieName) {
         }
             
     // Runs a request to the OMDB API with the movie specified
-    var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&r=json&tomatoes=true&apikey=trilogy";
+    var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&r=json&tomatoes=true&apikey=" + process.env.OMDB_SECRET;
 
     // Helps debugging
     console.log(queryUrl);
-
++
     //Callback to OMDB API to get movie info
     request(queryUrl, function(error, response, body) {
 
