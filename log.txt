@@ -58,4 +58,99 @@ Language: English, Hungarian, Latin
 Plot: The ancient vampire Count Dracula arrives in England and begins to prey upon the virtuous young Mina.
 Actors: Bela Lugosi, Helen Chandler, David Manners, Dwight Frye
 ------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Title: undefined
+Year: undefined
+Imdb Rating: undefined
+Rotten Tomatoes Rating: undefined
+Country: undefined
+Language: undefined
+Plot: undefined
+Actors: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Title: Dracula
+Year: 1931
+Imdb Rating: 7.6
+Rotten Tomatoes Rating: N/A
+Country: USA
+Language: English, Hungarian, Latin
+Plot: The ancient vampire Count Dracula arrives in England and begins to prey upon the virtuous young Mina.
+Actors: Bela Lugosi, Helen Chandler, David Manners, Dwight Frye
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Title: Dracula
+Year: 1931
+Imdb Rating: 7.6
+Rotten Tomatoes Rating: N/A
+Country: USA
+Language: English, Hungarian, Latin
+Plot: The ancient vampire Count Dracula arrives in England and begins to prey upon the virtuous young Mina.
+Actors: Bela Lugosi, Helen Chandler, David Manners, Dwight Frye
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Title: Dracula
+Year: 1931
+Imdb Rating: 7.6
+Rotten Tomatoes Rating: N/A
+Country: USA
+Language: English, Hungarian, Latin
+Plot: The ancient vampire Count Dracula arrives in England and begins to prey upon the virtuous young Mina.
+Actors: Bela Lugosi, Helen Chandler, David Manners, Dwight Frye
+------------------------------ end ------------------------------
+[object Object][object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object][object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object][object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
 [object Object]

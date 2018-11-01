@@ -5,4 +5,4 @@ exports.spotify = {
   secret: process.env.SPOTIFY_SECRET
 };
 
-// var spotify = new Spotify(keys.spotify);
+// var spotify = new Spotify(key.spotify);lir
