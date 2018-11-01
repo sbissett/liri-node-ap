@@ -5,7 +5,7 @@ require("dotenv").config();
 var fs = require("fs");
 var key = require('./key.js');
 var request = require('request');
-/// var concert = require('node-bandsintown-api');
+    //var bandsintown = require('node-bandsintown-api');
 var Spotify = require('node-spotify-api');
 
 //Variables to target specific APIs in the keys.js file
@@ -154,7 +154,7 @@ function getConcert(concertName) {
         // If the request is successful
        if (!error && response.statusCode === 200) {
             var concertObject = JSON.parse(body);
-            console.log(concertObject[0].venue.city, concertObject[0].venue.name);
+            console.log(concertObject[0].venue.city, concertObject[0].venue.name, concertObject[0].datetime);
             //console.log(concertObject); // Show the text in the terminal
             var concertResults = 
             "------------------------------ begin ------------------------------" + "\r\n" +
