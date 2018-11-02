@@ -21,7 +21,7 @@ node liri.js spotify-this-song "Song Name" (omit the quotes) provides detailed s
 node liri.js movie-this "your movie" (omit the quotes)  Provides good info for movies that you'd like to watch.
 
 
-Snip it's demonstration Liri success.
+Snip it links demonstration Liri success.
 
 C:\Users\steve\Desktop\liri-node-ap\images\Concert_This.PNG 
 
