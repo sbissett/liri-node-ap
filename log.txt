@@ -168,4 +168,58 @@ Name of the venue: undefined
 Location: undefined
 Date of event: undefined
 ------------------------------ end ------------------------------
-[object Object]
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object][object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object][object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------
+[object Object][object Object]------------------------------ begin ------------------------------
+Name of the venue: undefined
+Location: undefined
+Date of event: undefined
+------------------------------ end ------------------------------

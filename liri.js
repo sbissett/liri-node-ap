@@ -7,6 +7,7 @@ var key = require('./key.js');
 var request = require('request');
     //var bandsintown = require('node-bandsintown-api');
 var Spotify = require('node-spotify-api');
+var moment = require('moment');
 
 //Variables to target specific APIs in the keys.js file
 
@@ -154,7 +155,13 @@ function getConcert(concertName) {
         // If the request is successful
        if (!error && response.statusCode === 200) {
             var concertObject = JSON.parse(body);
-            console.log(concertObject[0].venue.city, concertObject[0].venue.name, concertObject[0].datetime);
+           for (var i = 0; i<concertObject.length; i++){
+
+            console.log(concertObject[i].venue.city, concertObject[i].venue.name, moment(concertObject[i].datetime).format("MM-DD-YYYY"));
+           }
+        
+            
+           
             //console.log(concertObject); // Show the text in the terminal
             var concertResults = 
             "------------------------------ begin ------------------------------" + "\r\n" +
