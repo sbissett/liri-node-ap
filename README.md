@@ -27,4 +27,4 @@ Snip it links demonstration Liri success.
 
 ![Movie-This](https://github.com/sbissett/liri-node-ap/blob/master/images/Movie-This.PNG)
 
-C:\Users\steve\Desktop\liri-node-ap\images\spotify-this-song.PNG
+![Spotify-this-song](https://github.com/sbissett/liri-node-ap/blob/master/images/spotify-this-song.PNG)
