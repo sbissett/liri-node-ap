@@ -23,7 +23,7 @@ node liri.js movie-this "your movie" (omit the quotes)  Provides good info for m
 
 Snip it links demonstration Liri success.
 
-![Concert-this] (https://github.com/sbissett/liri-node-ap/blob/master/images/Concert_This.PNG)
+![Concert-this](https://github.com/sbissett/liri-node-ap/blob/master/images/Concert_This.PNG)
 
 C:\Users\steve\Desktop\liri-node-ap\images\Movie-This.PNG
 
