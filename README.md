@@ -25,6 +25,6 @@ Snip it links demonstration Liri success.
 
 ![Concert-this](https://github.com/sbissett/liri-node-ap/blob/master/images/Concert_This.PNG)
 
-![Movie-This)(https://github.com/sbissett/liri-node-ap/blob/master/images/Movie-This.PNG)
+![Movie-This](https://github.com/sbissett/liri-node-ap/blob/master/images/Movie-This.PNG)
 
 C:\Users\steve\Desktop\liri-node-ap\images\spotify-this-song.PNG
